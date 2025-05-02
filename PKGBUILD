@@ -17,7 +17,7 @@ sha256sums=('SKIP')
 
 pkgver() {
   cd "mutagen"
-  git describe --long --tags | sed 's/^release-//;s/\([^-]*-g\)/r\1/;s/-/./g'
+  git --no-pager log -1 --format="%cd.%h" --date=short | sed -e 's/-/./g'
 }
 
 build() {
