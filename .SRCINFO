@@ -1,6 +1,6 @@
 pkgbase = python-mutagen-git
 	pkgdesc = An audio metadata tag reader and writer (python library)
-	pkgver = 1.47.0.r34.g62a7b3e
+	pkgver = 2025.05.02.8f5823f
 	pkgrel = 1
 	url = https://github.com/LittleYe233/mutagen
 	arch = any
